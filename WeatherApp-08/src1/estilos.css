@@ -4,7 +4,7 @@ body{
     background-color: rgb(217, 239, 239);  
 }
 h1{
-    line-height: 55px;
+    
     text-align: center;
     font-weight: 600;
 }
@@ -36,6 +36,10 @@ svg{
 #convertion .active:hover {
     text-decoration: none;
 }
+#degrees{
+    font-size: 6rem;
+    line-height: 45px;
+}
 
 .active{
     color:#56515e;
@@ -54,6 +58,7 @@ svg{
 .app{
     background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
     padding: 0 30px 30px;
+    
 }
 
 .content{
