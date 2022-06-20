@@ -143,7 +143,7 @@ let fahrenheit = document.querySelector("#fahrenheit");
 fahrenheit.addEventListener("click", fahrenheitElement);
 
 let celsius = document.querySelector("#celsius");
-fahrenheit.addEventListener("click", celsiusElement);
+celsius.addEventListener("click", celsiusElement);
 
 let getCurrentIcon = document.querySelector("#geolocation");
 getCurrentIcon.addEventListener("click", getPosition);
