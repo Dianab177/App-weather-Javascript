@@ -58,13 +58,13 @@ function weekForecast(response) {
 
   let forecastDisplay = document.querySelector("#week-forecast");
 
-  let forecastHtml = `<div class="row">`;
+  let forecastHtml = `<div class="row d-flex justify-content-center" id="row-forecast">`;
   forecast.forEach(function (forecastDaily, index) {
     if (index < 5) {
       forecastHtml =
         forecastHtml +
         `
-      <div class="col-2">
+      <div class="col-2 ">
       <div class="date-forecast">${formatDaysForecast(forecastDaily.dt)}</div>
       <img src="http://openweathermap.org/img/wn/${
         forecastDaily.weather[0].icon

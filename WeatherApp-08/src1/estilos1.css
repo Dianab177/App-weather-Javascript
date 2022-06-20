@@ -1,8 +1,7 @@
 body{
     color:#56515e;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(217, 239, 239);
-    margin: 80px;
+    background-color: rgb(217, 239, 239);  
 }
 h1{
     line-height: 55px;
@@ -37,6 +36,7 @@ svg{
 #convertion .active:hover {
     text-decoration: none;
 }
+
 .active{
     color:#56515e;
 }
