@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src1/estilos1.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="app">
+        <form id="search-form" class="mb-3">
+          <div class="search-row row">
+            <span class="geolocations col-2">
+             <a href="#" id="geolocation">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="grey"
+                class="bi bi-geo-alt-fill text-center"
+                viewBox="0 0 16 16"
+                >
+                <path
+                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+               />
+               </svg>
+             </a>
+             </span>
+             <span class="input col-8">
+              <input
+              type="search"
+              id="search-text"
+              class="form control placeholder col-12  bg-transparent"
+              placeholder="Enter a city"
+              autocomplete="off"
+              />
+             </span>
+             <span class="button col-2">
+              <button type="submit"  class="btn btn-link">
+               <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="grey"
+                class="bi bi-search text-center"
+                viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+               </svg>
+              </button>
+            </span>
+          </div>
+        </form>
+          <h1 id="city" class="city"></h1>
+        <div class="content">
+        <div id="img">
+         <img src=" " id="weather-icon" width="260px"/>
+        </div>
+        <div class="degrees" >
+          <h1><span id="degrees"></span>º</h1>
+        </div>
+        <span id="convertion">
+          <a href="#" id="celsius" class="active">ºC</a> | 
+          <a href="#" id="fahrenheit">ºF</a>
+        </span>
+        <div class="description m-2 text-capitalize" id="description"></div>
+        <div class="m-2" id="date"></div>
+        <div class="m-5 d-inline-flex" m>
+            <ul class="align-content-center">
+              <li><span id="wind"></span> km/h</li>
+              <li>Wind</li>
+            </ul>
+            <ul>
+              <li><span id="humidity"></span>%</li>
+              <li>Humidity</li>
+            </ul>
+            <ul>
+              <li><span id="max-degrees"></span>º</li>
+              <li>Maximum</li>
+            </ul>
+          </div>
+         </div>
+         <div class="week-forecast" id="week-forecast"></div>
+        </div>
+        <small>
+          <a
+            href="https://github.com/Dianab177/WeatherApp-01.git"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Diana Borrajo
+        </small>
+      </div>
+     </div>
+    <script src="src1/app1.js"></script>
+  </body>
+</html>

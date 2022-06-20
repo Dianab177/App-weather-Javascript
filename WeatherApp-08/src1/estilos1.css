@@ -1,0 +1,98 @@
+body{
+    color:#56515e;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(217, 239, 239);
+    margin: 80px;
+}
+h1{
+    line-height: 55px;
+    text-align: center;
+    font-weight: 600;
+}
+
+li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    right: 50px;
+    margin:0;
+    padding: 0;
+
+}
+input{
+    border: none;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+}
+
+svg{
+    
+    margin: 30px auto;
+    display: block;
+}
+
+#convertion .active:hover {
+    text-decoration: none;
+}
+.active{
+    color:#56515e;
+}
+.search-row{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+
+}
+.container{
+    max-width: 650px;
+    margin: 30px auto;
+    
+}
+.app{
+    background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    padding: 0 30px 30px;
+}
+
+.content{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.geosearch-row{
+    position: relative;
+    justify-content: center;
+}
+
+.description{
+    text-align: center;
+    line-height: 19px;
+}
+
+.description-weather{
+    
+    line-height: 19px;
+}
+
+.week-forecast{
+    text-align: center;
+}
+
+.date-forecast{
+    font-size: 16px;
+}
+
+.degrees-forecast{
+    font-size: 13px;
+}
+
+.min-temp-forecast{
+    opacity: 0.5;
+}
+
+
+
+
