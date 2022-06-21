@@ -15,7 +15,6 @@ li{
     font-weight: 300;
     line-height: 20px;
     text-align: center;
-    right: 50px;
     margin:0;
     padding: 0;
 
@@ -29,7 +28,7 @@ input{
 
 svg{
     
-    margin: 30px auto;
+    margin: 20px auto;
     display: block;
 }
 
@@ -37,7 +36,7 @@ svg{
     text-decoration: none;
 }
 #degrees{
-    font-size: 6rem;
+    font-size: 5rem;
     line-height: 45px;
 }
 
@@ -45,19 +44,19 @@ svg{
     color:#56515e;
 }
 .search-row{
-    margin: 30px;
+    margin: 0 30px;
     display: flex;
     align-items: center;
 
 }
 .container{
     max-width: 650px;
-    margin: 30px auto;
+    margin: 0px auto;
     
 }
 .app{
     background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-    padding: 0 30px 30px;
+    padding: 0 0 30px 0;
     
 }
 
@@ -74,12 +73,12 @@ svg{
 
 .description{
     text-align: center;
-    line-height: 19px;
+    line-height: 5px;
 }
 
 .description-weather{
     
-    line-height: 19px;
+    line-height: 5px;
 }
 
 .week-forecast{
