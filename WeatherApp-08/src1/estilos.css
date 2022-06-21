@@ -1,7 +1,7 @@
 body{
     color:#56515e;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(217, 239, 239);  
+     
 }
 h1{
     
@@ -13,7 +13,6 @@ li{
     list-style: none;
     font-size: 16px;
     font-weight: 300;
-    line-height: 20px;
     text-align: center;
     margin:0;
     padding: 0;
@@ -31,6 +30,9 @@ svg{
     margin: 20px auto;
     display: block;
 }
+a{
+    color: salmon;
+}
 
 #convertion .active:hover {
     text-decoration: none;
@@ -44,20 +46,22 @@ svg{
     color:#56515e;
 }
 .search-row{
-    margin: 0 30px;
+    margin: 0 20px;
     display: flex;
     align-items: center;
 
 }
 .container{
-    max-width: 650px;
+    max-width: 600px;
     margin: 0px auto;
     
 }
 .app{
     background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
     padding: 0 0 30px 0;
-    
+    margin-top: 20px;
+    border: 3px salmon solid;
+    border-radius: 30px;
 }
 
 .content{
@@ -86,7 +90,7 @@ svg{
 }
 
 .date-forecast{
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .degrees-forecast{
