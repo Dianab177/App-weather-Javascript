@@ -20,6 +20,7 @@ function newDay(date) {
 
   return `${day} ${hour}:${minutes}`;
 }
+
 function formatDaysForecast(dateStamp) {
   let date = new Date(dateStamp * 1000);
   let day = date.getDay();
